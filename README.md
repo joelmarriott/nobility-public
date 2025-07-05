@@ -20,7 +20,11 @@ https://discord.com/oauth2/authorize?client_id=960844255125991434&permissions=51
 `/help` shows all possible commands in the discord interface
 ### World Settings
 `/units` shows unit information for the current world  
-`/world` shows setting information for the current world
+`/world` shows setting information for the current world  
+`/map` allows for custom maps to be generated for the current world  
+_e.g._ `/map Tribe` shows the top 20 tribes  
+_e.g._ `/map Player Player1,Player2 3` shows Player1 and Player2's conquers for the last 3 days  
+_e.g._ `/map Player Player1,Player2 3 False False` is the same as above, but with all other player and barbarian villages removed.
 ### Player Information
 `/player` shows information about player names containing your search string  
 _e.g._ `/player tax` _would show player information for both 'Syntax' and 'Taxidermy'_  
